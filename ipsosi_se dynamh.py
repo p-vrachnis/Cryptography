@@ -29,16 +29,15 @@ l.reverse()
 for i in range (len(l)):
     if (l[i]==1):
       t=temp
-      print(temp * temp * x, "mod", z)
+      print( l[i] , temp * temp * x, "mod", z, "=", temp*temp *x % z  )
       temp= temp*temp *x % z
-      print( l[i], temp )
+      # print( l[i], temp )
       d=0
     else:
         t=temp
-        print(temp * temp, "mod", z)
+        print(l[i] ,temp * temp, "mod", z, "=", temp*temp %z )
         temp= temp*temp %z
-
-        print(l[i], temp)
+        # print(l[i], temp)
         d=1
 if (d==0):
     print ("res=",temp)
