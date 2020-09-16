@@ -31,7 +31,7 @@ gcd=x
 x1=1
 y1=0
 print("\n" )
-print("x1" ,"    " , "y1" )
+print("x'" ,"    " , "y'" )
 while (count!=0):
   #gcd = x*x1 + y*y1
   print (x1,"   ", y1 )
